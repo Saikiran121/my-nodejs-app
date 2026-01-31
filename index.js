@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('App is running on Elastic Beanstalk 🚀');
+  res.send('App is running on Elastic Beanstalk in prod 🚀');
 });
 
 app.listen(PORT, () => {
